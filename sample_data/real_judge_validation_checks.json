@@ -1,0 +1,131 @@
+{
+  "note": "Actual prompt-development diagnostics before the final prompt. Rejected outputs were never accepted as judge questions; validation rules were unchanged.",
+  "source_question": {
+    "slide_number": 1,
+    "question_id": "slide1_q1",
+    "priority": "HIGH",
+    "category": "evidence",
+    "source_finding_type": "UNSUPPORTED_NUMERIC_CLAIM",
+    "claim": "StageGuide reduces presentation preparation time by 30%.",
+    "question": "What evidence supports the claimed 30% reduction in presentation preparation time by StageGuide?",
+    "reason": "The value(s) 30% were not matched in a related rehearsal sentence. The quantified benefit needs a verbal explanation and supporting basis.",
+    "evidence_reference": {
+      "slide_number": 1,
+      "finding_id": "slide1_f1",
+      "finding": {
+        "type": "UNSUPPORTED_NUMERIC_CLAIM",
+        "severity": "HIGH",
+        "claim": "StageGuide reduces presentation preparation time by 30%.",
+        "reason": "The value(s) 30% were not matched in a related rehearsal sentence. The quantified benefit needs a verbal explanation and supporting basis.",
+        "evidence": {
+          "slide_text": "StageGuide reduces presentation preparation time by 30%.",
+          "transcript_match": "StageGuide is designed for university students preparing presentations.",
+          "related_transcript": [
+            "StageGuide is designed for university students preparing presentations."
+          ],
+          "supporting_excerpts": [],
+          "alignment_status": "partial",
+          "alignment_similarity": 0.6,
+          "numeric_values": [
+            "30%"
+          ],
+          "unmentioned_values": [
+            "30%"
+          ],
+          "trigger_phrases": [
+            "30%"
+          ],
+          "rule_id": "numeric-omission"
+        },
+        "confidence": "high"
+      }
+    },
+    "additional_evidence_references": []
+  },
+  "calls": [
+    {
+      "variation": "",
+      "answer": null,
+      "raw": "{\"question\": \"Can you provide a specific example or rehearsal statement that shows a 30% reduction in preparation time using StageGuide?\",\"grounded\": true,\"source_question_id\": \"slide1_q1\"}",
+      "metrics": {
+        "model_name": "Qwen3-4B-Instruct-2507",
+        "backend_name": "LocalDevelopmentJudgeBackend",
+        "execution_provider": "llama.cpp/Metal",
+        "accelerator": "Metal",
+        "total_seconds": 5.121497834,
+        "load_seconds": 1.9570360420000001,
+        "generation_seconds": 3.164461792,
+        "prompt_tokens": 371,
+        "output_tokens": 44,
+        "decode_tokens_per_second": 28.517985126574484
+      },
+      "rejected": "Generated question introduces unsupported subject matter",
+      "unknown_words": [
+        "example",
+        "show",
+        "specific",
+        "statement",
+        "using"
+      ]
+    },
+    {
+      "variation": "",
+      "answer": "We expect that because AI automates some preparation work.",
+      "raw": "{\"follow_up_question\": \"Can you clarify how the AI automation in StageGuide specifically translates to a 30% reduction in preparation time?\",\"grounded\": true,\"source_question_id\": \"slide1_q1\",\"reason\": \"The value(s) 30% were not matched in a related rehearsal sentence. The quantified benefit needs a verbal explanation and supporting basis.\"}",
+      "metrics": {
+        "model_name": "Qwen3-4B-Instruct-2507",
+        "backend_name": "LocalDevelopmentJudgeBackend",
+        "execution_provider": "llama.cpp/Metal",
+        "accelerator": "Metal",
+        "total_seconds": 4.162594375,
+        "load_seconds": 5.420000004363601e-07,
+        "generation_seconds": 4.162593833,
+        "prompt_tokens": 389,
+        "output_tokens": 78,
+        "decode_tokens_per_second": 27.14267022630027
+      },
+      "rejected": "Generated question introduces unsupported subject matter",
+      "unknown_words": [
+        "automation",
+        "translate"
+      ]
+    },
+    {
+      "variation": "For refine, start with You mentioned, briefly restate the claim, then ask for the same information as the original question. For follow_up, when the answer describes an expectation without measurement, ask whether the original figure is based on a measured test or is currently an assumption. Use simple wording.",
+      "answer": null,
+      "raw": "{\"question\": \"You mentioned a 30% reduction in presentation preparation time—what evidence supports this claim?\", \"grounded\": true, \"source_question_id\": \"slide1_q1\"}",
+      "metrics": {
+        "model_name": "Qwen3-4B-Instruct-2507",
+        "backend_name": "LocalDevelopmentJudgeBackend",
+        "execution_provider": "llama.cpp/Metal",
+        "accelerator": "Metal",
+        "total_seconds": 2.567037708000001,
+        "load_seconds": 3.7500000082957285e-07,
+        "generation_seconds": 2.567037333,
+        "prompt_tokens": 430,
+        "output_tokens": 40,
+        "decode_tokens_per_second": 26.73316094900048
+      },
+      "rejected": "Conversational preface adds an unsupported assertion",
+      "unknown_words": []
+    },
+    {
+      "variation": "For refine, start with You mentioned, briefly restate the claim, then ask for the same information as the original question. For follow_up, when the answer describes an expectation without measurement, ask whether the original figure is based on a measured test or is currently an assumption. Use simple wording.",
+      "answer": "We expect that because AI automates some preparation work.",
+      "raw": "{\"follow_up_question\": \"Is the 30% reduction based on a measured test or currently an assumption?\",\"grounded\": true,\"source_question_id\": \"slide1_q1\",\"reason\": \"The value(s) 30% were not matched in a related rehearsal sentence. The quantified benefit needs a verbal explanation and supporting basis.\"}",
+      "metrics": {
+        "model_name": "Qwen3-4B-Instruct-2507",
+        "backend_name": "LocalDevelopmentJudgeBackend",
+        "execution_provider": "llama.cpp/Metal",
+        "accelerator": "Metal",
+        "total_seconds": 3.9549619159999985,
+        "load_seconds": 4.999999987376214e-07,
+        "generation_seconds": 3.9549614159999997,
+        "prompt_tokens": 448,
+        "output_tokens": 72,
+        "decode_tokens_per_second": 26.227110016534006
+      },
+      "accepted": "Is the 30% reduction based on a measured test or currently an assumption?"
+    }
+  ]
+}

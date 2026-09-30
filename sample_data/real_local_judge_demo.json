@@ -1,0 +1,277 @@
+{
+  "platform": {
+    "operating_system": "Darwin",
+    "machine_architecture": "arm64"
+  },
+  "backend_metadata": {
+    "backend_name": "LocalDevelopmentJudgeBackend",
+    "model_name": "Qwen3-4B-Instruct-2507",
+    "execution_provider": "llama.cpp/Metal",
+    "device_type": "Apple Silicon",
+    "accelerator": "Metal",
+    "is_hardware_accelerated": true,
+    "available": true,
+    "status": "loaded"
+  },
+  "interaction": {
+    "original_question": {
+      "slide_number": 1,
+      "question_id": "slide1_q1",
+      "priority": "HIGH",
+      "category": "evidence",
+      "source_finding_type": "UNSUPPORTED_NUMERIC_CLAIM",
+      "claim": "StageGuide reduces presentation preparation time by 30%.",
+      "question": "What evidence supports the claimed 30% reduction in presentation preparation time by StageGuide?",
+      "reason": "The value(s) 30% were not matched in a related rehearsal sentence. The quantified benefit needs a verbal explanation and supporting basis.",
+      "evidence_reference": {
+        "slide_number": 1,
+        "finding_id": "slide1_f1",
+        "finding": {
+          "type": "UNSUPPORTED_NUMERIC_CLAIM",
+          "severity": "HIGH",
+          "claim": "StageGuide reduces presentation preparation time by 30%.",
+          "reason": "The value(s) 30% were not matched in a related rehearsal sentence. The quantified benefit needs a verbal explanation and supporting basis.",
+          "evidence": {
+            "slide_text": "StageGuide reduces presentation preparation time by 30%.",
+            "transcript_match": "StageGuide is designed for university students preparing presentations.",
+            "related_transcript": [
+              "StageGuide is designed for university students preparing presentations."
+            ],
+            "supporting_excerpts": [],
+            "alignment_status": "partial",
+            "alignment_similarity": 0.6,
+            "numeric_values": [
+              "30%"
+            ],
+            "unmentioned_values": [
+              "30%"
+            ],
+            "trigger_phrases": [
+              "30%"
+            ],
+            "rule_id": "numeric-omission"
+          },
+          "confidence": "high"
+        }
+      },
+      "additional_evidence_references": []
+    },
+    "refined_question": {
+      "question": "You mentioned StageGuide reduces presentation preparation time by 30%. What evidence supports this claimed reduction?",
+      "mode": "refine",
+      "grounded": true,
+      "source_question_id": "slide1_q1",
+      "reason": "The value(s) 30% were not matched in a related rehearsal sentence. The quantified benefit needs a verbal explanation and supporting basis.",
+      "used_fallback": false,
+      "fallback_reason": null,
+      "source_question": {
+        "slide_number": 1,
+        "question_id": "slide1_q1",
+        "priority": "HIGH",
+        "category": "evidence",
+        "source_finding_type": "UNSUPPORTED_NUMERIC_CLAIM",
+        "claim": "StageGuide reduces presentation preparation time by 30%.",
+        "question": "What evidence supports the claimed 30% reduction in presentation preparation time by StageGuide?",
+        "reason": "The value(s) 30% were not matched in a related rehearsal sentence. The quantified benefit needs a verbal explanation and supporting basis.",
+        "evidence_reference": {
+          "slide_number": 1,
+          "finding_id": "slide1_f1",
+          "finding": {
+            "type": "UNSUPPORTED_NUMERIC_CLAIM",
+            "severity": "HIGH",
+            "claim": "StageGuide reduces presentation preparation time by 30%.",
+            "reason": "The value(s) 30% were not matched in a related rehearsal sentence. The quantified benefit needs a verbal explanation and supporting basis.",
+            "evidence": {
+              "slide_text": "StageGuide reduces presentation preparation time by 30%.",
+              "transcript_match": "StageGuide is designed for university students preparing presentations.",
+              "related_transcript": [
+                "StageGuide is designed for university students preparing presentations."
+              ],
+              "supporting_excerpts": [],
+              "alignment_status": "partial",
+              "alignment_similarity": 0.6,
+              "numeric_values": [
+                "30%"
+              ],
+              "unmentioned_values": [
+                "30%"
+              ],
+              "trigger_phrases": [
+                "30%"
+              ],
+              "rule_id": "numeric-omission"
+            },
+            "confidence": "high"
+          }
+        },
+        "additional_evidence_references": []
+      },
+      "backend_metadata": {
+        "backend_name": "LocalDevelopmentJudgeBackend",
+        "model_name": "Qwen3-4B-Instruct-2507",
+        "execution_provider": "llama.cpp/Metal",
+        "device_type": "Apple Silicon",
+        "accelerator": "Metal",
+        "is_hardware_accelerated": true,
+        "available": true,
+        "status": "loaded"
+      }
+    },
+    "presenter_answer": "We expect that because AI automates some preparation work.",
+    "follow_up": {
+      "mode": "follow_up",
+      "grounded": true,
+      "source_question_id": "slide1_q1",
+      "reason": "The value(s) 30% were not matched in a related rehearsal sentence. The quantified benefit needs a verbal explanation and supporting basis.",
+      "used_fallback": false,
+      "fallback_reason": null,
+      "source_question": {
+        "slide_number": 1,
+        "question_id": "slide1_q1",
+        "priority": "HIGH",
+        "category": "evidence",
+        "source_finding_type": "UNSUPPORTED_NUMERIC_CLAIM",
+        "claim": "StageGuide reduces presentation preparation time by 30%.",
+        "question": "What evidence supports the claimed 30% reduction in presentation preparation time by StageGuide?",
+        "reason": "The value(s) 30% were not matched in a related rehearsal sentence. The quantified benefit needs a verbal explanation and supporting basis.",
+        "evidence_reference": {
+          "slide_number": 1,
+          "finding_id": "slide1_f1",
+          "finding": {
+            "type": "UNSUPPORTED_NUMERIC_CLAIM",
+            "severity": "HIGH",
+            "claim": "StageGuide reduces presentation preparation time by 30%.",
+            "reason": "The value(s) 30% were not matched in a related rehearsal sentence. The quantified benefit needs a verbal explanation and supporting basis.",
+            "evidence": {
+              "slide_text": "StageGuide reduces presentation preparation time by 30%.",
+              "transcript_match": "StageGuide is designed for university students preparing presentations.",
+              "related_transcript": [
+                "StageGuide is designed for university students preparing presentations."
+              ],
+              "supporting_excerpts": [],
+              "alignment_status": "partial",
+              "alignment_similarity": 0.6,
+              "numeric_values": [
+                "30%"
+              ],
+              "unmentioned_values": [
+                "30%"
+              ],
+              "trigger_phrases": [
+                "30%"
+              ],
+              "rule_id": "numeric-omission"
+            },
+            "confidence": "high"
+          }
+        },
+        "additional_evidence_references": []
+      },
+      "backend_metadata": {
+        "backend_name": "LocalDevelopmentJudgeBackend",
+        "model_name": "Qwen3-4B-Instruct-2507",
+        "execution_provider": "llama.cpp/Metal",
+        "device_type": "Apple Silicon",
+        "accelerator": "Metal",
+        "is_hardware_accelerated": true,
+        "available": true,
+        "status": "loaded"
+      },
+      "follow_up_question": "Is the 30% reduction based on a measured test or currently an assumption?"
+    }
+  },
+  "disabled_fallback": {
+    "question": "What evidence supports the claimed 30% reduction in presentation preparation time by StageGuide?",
+    "mode": "refine",
+    "grounded": true,
+    "source_question_id": "slide1_q1",
+    "reason": "The value(s) 30% were not matched in a related rehearsal sentence. The quantified benefit needs a verbal explanation and supporting basis.",
+    "used_fallback": true,
+    "fallback_reason": "backend_unavailable:disabled",
+    "source_question": {
+      "slide_number": 1,
+      "question_id": "slide1_q1",
+      "priority": "HIGH",
+      "category": "evidence",
+      "source_finding_type": "UNSUPPORTED_NUMERIC_CLAIM",
+      "claim": "StageGuide reduces presentation preparation time by 30%.",
+      "question": "What evidence supports the claimed 30% reduction in presentation preparation time by StageGuide?",
+      "reason": "The value(s) 30% were not matched in a related rehearsal sentence. The quantified benefit needs a verbal explanation and supporting basis.",
+      "evidence_reference": {
+        "slide_number": 1,
+        "finding_id": "slide1_f1",
+        "finding": {
+          "type": "UNSUPPORTED_NUMERIC_CLAIM",
+          "severity": "HIGH",
+          "claim": "StageGuide reduces presentation preparation time by 30%.",
+          "reason": "The value(s) 30% were not matched in a related rehearsal sentence. The quantified benefit needs a verbal explanation and supporting basis.",
+          "evidence": {
+            "slide_text": "StageGuide reduces presentation preparation time by 30%.",
+            "transcript_match": "StageGuide is designed for university students preparing presentations.",
+            "related_transcript": [
+              "StageGuide is designed for university students preparing presentations."
+            ],
+            "supporting_excerpts": [],
+            "alignment_status": "partial",
+            "alignment_similarity": 0.6,
+            "numeric_values": [
+              "30%"
+            ],
+            "unmentioned_values": [
+              "30%"
+            ],
+            "trigger_phrases": [
+              "30%"
+            ],
+            "rule_id": "numeric-omission"
+          },
+          "confidence": "high"
+        }
+      },
+      "additional_evidence_references": []
+    },
+    "backend_metadata": {
+      "backend_name": "DisabledJudgeBackend",
+      "model_name": "none",
+      "execution_provider": "none",
+      "device_type": "none",
+      "accelerator": "none",
+      "is_hardware_accelerated": false,
+      "available": false,
+      "status": "disabled"
+    }
+  },
+  "inference_metrics": {
+    "refine": {
+      "model_name": "Qwen3-4B-Instruct-2507",
+      "backend_name": "LocalDevelopmentJudgeBackend",
+      "execution_provider": "llama.cpp/Metal",
+      "accelerator": "Metal",
+      "total_seconds": 5.2677116250000005,
+      "load_seconds": 1.9878352500000003,
+      "generation_seconds": 3.279876375,
+      "prompt_tokens": 444,
+      "output_tokens": 40,
+      "decode_tokens_per_second": 26.794278885572353
+    },
+    "follow_up": {
+      "model_name": "Qwen3-4B-Instruct-2507",
+      "backend_name": "LocalDevelopmentJudgeBackend",
+      "execution_provider": "llama.cpp/Metal",
+      "accelerator": "Metal",
+      "total_seconds": 3.5032735830000004,
+      "load_seconds": 3.1250000001037392e-06,
+      "generation_seconds": 3.5032704580000003,
+      "prompt_tokens": 462,
+      "output_tokens": 72,
+      "decode_tokens_per_second": 29.6921052403679
+    }
+  },
+  "runtime_initialization_log": "sample_data/real_judge_runtime.log",
+  "model_provenance": "sample_data/judge_model_provenance.json",
+  "hardware": {
+    "chip": "Apple M4",
+    "unified_memory_gib": 16,
+    "verified_gpu_layers": "37/37"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "slide_number": 1,
+  "findings": [
+    {
+      "type": "UNSUPPORTED_NUMERIC_CLAIM",
+      "severity": "HIGH",
+      "claim": "StageGuide reduces presentation preparation time by 30%.",
+      "reason": "The value(s) 30% were not matched in a related rehearsal sentence. The quantified benefit needs a verbal explanation and supporting basis.",
+      "evidence": {
+        "slide_text": "StageGuide reduces presentation preparation time by 30%.",
+        "transcript_match": "StageGuide is designed for university students preparing presentations.",
+        "related_transcript": [
+          "StageGuide is designed for university students preparing presentations."
+        ],
+        "supporting_excerpts": [],
+        "alignment_status": "partial",
+        "alignment_similarity": 0.6,
+        "numeric_values": [
+          "30%"
+        ],
+        "unmentioned_values": [
+          "30%"
+        ],
+        "trigger_phrases": [
+          "30%"
+        ],
+        "rule_id": "numeric-omission"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "UNEXPLAINED_NUMBER",
+      "severity": "HIGH",
+      "claim": "Our initial target market is 5 million university students.",
+      "reason": "The value(s) 5 million were not matched in a related rehearsal sentence. Explain the figure and what it represents; discussing the audience or topic alone does not cover it.",
+      "evidence": {
+        "slide_text": "Our initial target market is 5 million university students.",
+        "transcript_match": "StageGuide is designed for university students preparing presentations.",
+        "related_transcript": [
+          "StageGuide is designed for university students preparing presentations."
+        ],
+        "supporting_excerpts": [],
+        "alignment_status": "partial",
+        "alignment_similarity": 0.4,
+        "numeric_values": [
+          "5 million"
+        ],
+        "unmentioned_values": [
+          "5 million"
+        ],
+        "trigger_phrases": [
+          "5 million"
+        ],
+        "rule_id": "numeric-omission"
+      },
+      "confidence": "high"
+    },
+    {
+      "type": "ASSUMPTION_TO_VALIDATE",
+      "severity": "MEDIUM",
+      "claim": "Universities will pay ₹999 per user each year.",
+      "reason": "This future payment, adoption or partnership assertion needs validation; no related validation attempt or explicit acknowledgment of uncertainty was detected in the supplied rehearsal.",
+      "evidence": {
+        "slide_text": "Universities will pay ₹999 per user each year.",
+        "transcript_match": null,
+        "related_transcript": [],
+        "supporting_excerpts": [],
+        "alignment_status": "missing",
+        "alignment_similarity": 0.1667,
+        "numeric_values": [
+          "999"
+        ],
+        "unmentioned_values": [
+          "999"
+        ],
+        "trigger_phrases": [
+          "Universities will pay"
+        ],
+        "rule_id": "business-assumption"
+      },
+      "confidence": "high"
+    }
+  ]
+}

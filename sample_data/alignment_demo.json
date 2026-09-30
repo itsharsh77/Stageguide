@@ -1,0 +1,52 @@
+{
+  "slide_number": 1,
+  "title": null,
+  "coverage_score": 0.1667,
+  "explained_items": [],
+  "partially_explained_items": [
+    "StageGuide reduces presentation preparation time by 30%.",
+    "Our initial target is 5 million university students."
+  ],
+  "missing_items": [
+    "30%",
+    "5 million"
+  ],
+  "items": [
+    {
+      "text": "StageGuide reduces presentation preparation time by 30%.",
+      "kind": "body",
+      "context": null,
+      "status": "partial",
+      "similarity": 0.6,
+      "weight": 1,
+      "matched_text": "We want StageGuide to make presentation preparation easier."
+    },
+    {
+      "text": "30%",
+      "kind": "percentage",
+      "context": "StageGuide reduces presentation preparation time by 30%.",
+      "status": "missing",
+      "similarity": 0.0,
+      "weight": 2,
+      "matched_text": null
+    },
+    {
+      "text": "Our initial target is 5 million university students.",
+      "kind": "body",
+      "context": null,
+      "status": "partial",
+      "similarity": 0.75,
+      "weight": 1,
+      "matched_text": "Our first users will be university students."
+    },
+    {
+      "text": "5 million",
+      "kind": "number",
+      "context": "Our initial target is 5 million university students.",
+      "status": "missing",
+      "similarity": 0.0,
+      "weight": 2,
+      "matched_text": null
+    }
+  ]
+}

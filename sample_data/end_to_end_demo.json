@@ -1,0 +1,593 @@
+{
+  "source_filename": "demo_presentation.pdf",
+  "audio_filename": "speech_demo.wav",
+  "backend_metadata": {
+    "speech": {
+      "backend_name": "WhisperCPUBackend",
+      "model_name": "tiny.en",
+      "execution_provider": "CPU",
+      "device_type": "CPU",
+      "accelerator": "none",
+      "is_hardware_accelerated": false
+    },
+    "judge": {
+      "backend_name": "LocalDevelopmentJudgeBackend",
+      "model_name": "Qwen3-4B-Instruct-2507",
+      "execution_provider": "llama.cpp/CPU",
+      "device_type": "CPU",
+      "accelerator": "none",
+      "is_hardware_accelerated": false,
+      "available": false,
+      "status": "model_missing"
+    }
+  },
+  "transcript": {
+    "duration_seconds": 14.76,
+    "audio_duration_seconds": 14.96175,
+    "word_count": 31,
+    "words_per_minute": 126.0,
+    "filler_words": {
+      "you know": 1
+    },
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 2.96,
+        "text": "Today I will explain our presentation plan."
+      },
+      {
+        "start": 2.96,
+        "end": 4.36,
+        "text": "We have three goals."
+      },
+      {
+        "start": 4.36,
+        "end": 6.6,
+        "text": "First, make practice simple."
+      },
+      {
+        "start": 6.6,
+        "end": 9.0,
+        "text": "Second, give clear feedback."
+      },
+      {
+        "start": 9.0,
+        "end": 11.84,
+        "text": "Finally, help every speaker improve."
+      },
+      {
+        "start": 11.84,
+        "end": 14.76,
+        "text": "You know, good preparation makes a difference."
+      }
+    ],
+    "full_transcript": "Today I will explain our presentation plan. We have three goals. First, make practice simple. Second, give clear feedback. Finally, help every speaker improve. You know, good preparation makes a difference."
+  },
+  "review": {
+    "coverage": [
+      {
+        "slide_number": 1,
+        "title": "Presentation plan",
+        "coverage_score": 1.0,
+        "explained_items": [
+          "Presentation plan",
+          "We have three goals.",
+          "three",
+          "Make practice simple.",
+          "Give clear feedback.",
+          "Help every speaker improve."
+        ],
+        "partially_explained_items": [],
+        "missing_items": [],
+        "items": [
+          {
+            "text": "Presentation plan",
+            "kind": "title",
+            "context": null,
+            "status": "explained",
+            "similarity": 1.0,
+            "weight": 1,
+            "matched_text": "Today I will explain our presentation plan."
+          },
+          {
+            "text": "We have three goals.",
+            "kind": "body",
+            "context": null,
+            "status": "explained",
+            "similarity": 1.0,
+            "weight": 1,
+            "matched_text": "We have three goals."
+          },
+          {
+            "text": "three",
+            "kind": "number",
+            "context": "We have three goals.",
+            "status": "explained",
+            "similarity": 1.0,
+            "weight": 2,
+            "matched_text": "We have three goals."
+          },
+          {
+            "text": "Make practice simple.",
+            "kind": "body",
+            "context": null,
+            "status": "explained",
+            "similarity": 1.0,
+            "weight": 1,
+            "matched_text": "First, make practice simple."
+          },
+          {
+            "text": "Give clear feedback.",
+            "kind": "body",
+            "context": null,
+            "status": "explained",
+            "similarity": 1.0,
+            "weight": 1,
+            "matched_text": "Second, give clear feedback."
+          },
+          {
+            "text": "Help every speaker improve.",
+            "kind": "body",
+            "context": null,
+            "status": "explained",
+            "similarity": 1.0,
+            "weight": 1,
+            "matched_text": "Finally, help every speaker improve."
+          }
+        ]
+      },
+      {
+        "slide_number": 2,
+        "title": "Impact and opportunity",
+        "coverage_score": 0.0,
+        "explained_items": [],
+        "partially_explained_items": [],
+        "missing_items": [
+          "Impact and opportunity",
+          "StageGuide reduces presentation preparation time by 30%.",
+          "30%",
+          "Our initial target market is 5 million university students.",
+          "5 million",
+          "Universities will pay INR 999 per user each year.",
+          "999"
+        ],
+        "items": [
+          {
+            "text": "Impact and opportunity",
+            "kind": "title",
+            "context": null,
+            "status": "missing",
+            "similarity": 0.0,
+            "weight": 1,
+            "matched_text": null
+          },
+          {
+            "text": "StageGuide reduces presentation preparation time by 30%.",
+            "kind": "body",
+            "context": null,
+            "status": "missing",
+            "similarity": 0.2,
+            "weight": 1,
+            "matched_text": null
+          },
+          {
+            "text": "30%",
+            "kind": "percentage",
+            "context": "StageGuide reduces presentation preparation time by 30%.",
+            "status": "missing",
+            "similarity": 0.0,
+            "weight": 2,
+            "matched_text": null
+          },
+          {
+            "text": "Our initial target market is 5 million university students.",
+            "kind": "body",
+            "context": null,
+            "status": "missing",
+            "similarity": 0.2,
+            "weight": 1,
+            "matched_text": null
+          },
+          {
+            "text": "5 million",
+            "kind": "number",
+            "context": "Our initial target market is 5 million university students.",
+            "status": "missing",
+            "similarity": 0.0,
+            "weight": 2,
+            "matched_text": null
+          },
+          {
+            "text": "Universities will pay INR 999 per user each year.",
+            "kind": "body",
+            "context": null,
+            "status": "missing",
+            "similarity": 0.0,
+            "weight": 1,
+            "matched_text": null
+          },
+          {
+            "text": "999",
+            "kind": "number",
+            "context": "Universities will pay INR 999 per user each year.",
+            "status": "missing",
+            "similarity": 0.0,
+            "weight": 2,
+            "matched_text": null
+          }
+        ]
+      }
+    ],
+    "arguments": [
+      {
+        "slide_number": 1,
+        "findings": []
+      },
+      {
+        "slide_number": 2,
+        "findings": [
+          {
+            "type": "UNSUPPORTED_NUMERIC_CLAIM",
+            "severity": "HIGH",
+            "claim": "StageGuide reduces presentation preparation time by 30%.",
+            "reason": "The value(s) 30% were not matched in a related rehearsal sentence. The quantified benefit needs a verbal explanation and supporting basis.",
+            "evidence": {
+              "slide_text": "StageGuide reduces presentation preparation time by 30%.",
+              "transcript_match": null,
+              "related_transcript": [],
+              "supporting_excerpts": [],
+              "alignment_status": "missing",
+              "alignment_similarity": 0.2,
+              "numeric_values": [
+                "30%"
+              ],
+              "unmentioned_values": [
+                "30%"
+              ],
+              "trigger_phrases": [
+                "30%"
+              ],
+              "rule_id": "numeric-omission"
+            },
+            "confidence": "high"
+          },
+          {
+            "type": "UNEXPLAINED_NUMBER",
+            "severity": "HIGH",
+            "claim": "Our initial target market is 5 million university students.",
+            "reason": "The value(s) 5 million were not matched in a related rehearsal sentence. Explain the figure and what it represents; discussing the audience or topic alone does not cover it.",
+            "evidence": {
+              "slide_text": "Our initial target market is 5 million university students.",
+              "transcript_match": null,
+              "related_transcript": [],
+              "supporting_excerpts": [],
+              "alignment_status": "missing",
+              "alignment_similarity": 0.2,
+              "numeric_values": [
+                "5 million"
+              ],
+              "unmentioned_values": [
+                "5 million"
+              ],
+              "trigger_phrases": [
+                "5 million"
+              ],
+              "rule_id": "numeric-omission"
+            },
+            "confidence": "high"
+          },
+          {
+            "type": "ASSUMPTION_TO_VALIDATE",
+            "severity": "MEDIUM",
+            "claim": "Universities will pay INR 999 per user each year.",
+            "reason": "This future payment, adoption or partnership assertion needs validation; no related validation attempt or explicit acknowledgment of uncertainty was detected in the supplied rehearsal.",
+            "evidence": {
+              "slide_text": "Universities will pay INR 999 per user each year.",
+              "transcript_match": null,
+              "related_transcript": [],
+              "supporting_excerpts": [],
+              "alignment_status": "missing",
+              "alignment_similarity": 0.0,
+              "numeric_values": [
+                "999"
+              ],
+              "unmentioned_values": [
+                "999"
+              ],
+              "trigger_phrases": [
+                "Universities will pay"
+              ],
+              "rule_id": "business-assumption"
+            },
+            "confidence": "high"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "slide_number": 2,
+        "question_id": "slide2_q1",
+        "priority": "HIGH",
+        "category": "evidence",
+        "source_finding_type": "UNSUPPORTED_NUMERIC_CLAIM",
+        "claim": "StageGuide reduces presentation preparation time by 30%.",
+        "question": "What evidence supports the claimed 30% reduction in presentation preparation time by StageGuide?",
+        "reason": "The value(s) 30% were not matched in a related rehearsal sentence. The quantified benefit needs a verbal explanation and supporting basis.",
+        "evidence_reference": {
+          "slide_number": 2,
+          "finding_id": "slide2_f1",
+          "finding": {
+            "type": "UNSUPPORTED_NUMERIC_CLAIM",
+            "severity": "HIGH",
+            "claim": "StageGuide reduces presentation preparation time by 30%.",
+            "reason": "The value(s) 30% were not matched in a related rehearsal sentence. The quantified benefit needs a verbal explanation and supporting basis.",
+            "evidence": {
+              "slide_text": "StageGuide reduces presentation preparation time by 30%.",
+              "transcript_match": null,
+              "related_transcript": [],
+              "supporting_excerpts": [],
+              "alignment_status": "missing",
+              "alignment_similarity": 0.2,
+              "numeric_values": [
+                "30%"
+              ],
+              "unmentioned_values": [
+                "30%"
+              ],
+              "trigger_phrases": [
+                "30%"
+              ],
+              "rule_id": "numeric-omission"
+            },
+            "confidence": "high"
+          }
+        },
+        "additional_evidence_references": []
+      },
+      {
+        "slide_number": 2,
+        "question_id": "slide2_q2",
+        "priority": "HIGH",
+        "category": "validation",
+        "source_finding_type": "UNEXPLAINED_NUMBER",
+        "claim": "Our initial target market is 5 million university students.",
+        "question": "How did you arrive at the estimate of 5 million university students?",
+        "reason": "The value(s) 5 million were not matched in a related rehearsal sentence. Explain the figure and what it represents; discussing the audience or topic alone does not cover it.",
+        "evidence_reference": {
+          "slide_number": 2,
+          "finding_id": "slide2_f2",
+          "finding": {
+            "type": "UNEXPLAINED_NUMBER",
+            "severity": "HIGH",
+            "claim": "Our initial target market is 5 million university students.",
+            "reason": "The value(s) 5 million were not matched in a related rehearsal sentence. Explain the figure and what it represents; discussing the audience or topic alone does not cover it.",
+            "evidence": {
+              "slide_text": "Our initial target market is 5 million university students.",
+              "transcript_match": null,
+              "related_transcript": [],
+              "supporting_excerpts": [],
+              "alignment_status": "missing",
+              "alignment_similarity": 0.2,
+              "numeric_values": [
+                "5 million"
+              ],
+              "unmentioned_values": [
+                "5 million"
+              ],
+              "trigger_phrases": [
+                "5 million"
+              ],
+              "rule_id": "numeric-omission"
+            },
+            "confidence": "high"
+          }
+        },
+        "additional_evidence_references": []
+      },
+      {
+        "slide_number": 2,
+        "question_id": "slide2_q3",
+        "priority": "MEDIUM",
+        "category": "validation",
+        "source_finding_type": "ASSUMPTION_TO_VALIDATE",
+        "claim": "Universities will pay INR 999 per user each year.",
+        "question": "What evidence suggests universities would be willing to pay INR 999 per user each year?",
+        "reason": "This future payment, adoption or partnership assertion needs validation; no related validation attempt or explicit acknowledgment of uncertainty was detected in the supplied rehearsal.",
+        "evidence_reference": {
+          "slide_number": 2,
+          "finding_id": "slide2_f3",
+          "finding": {
+            "type": "ASSUMPTION_TO_VALIDATE",
+            "severity": "MEDIUM",
+            "claim": "Universities will pay INR 999 per user each year.",
+            "reason": "This future payment, adoption or partnership assertion needs validation; no related validation attempt or explicit acknowledgment of uncertainty was detected in the supplied rehearsal.",
+            "evidence": {
+              "slide_text": "Universities will pay INR 999 per user each year.",
+              "transcript_match": null,
+              "related_transcript": [],
+              "supporting_excerpts": [],
+              "alignment_status": "missing",
+              "alignment_similarity": 0.0,
+              "numeric_values": [
+                "999"
+              ],
+              "unmentioned_values": [
+                "999"
+              ],
+              "trigger_phrases": [
+                "Universities will pay"
+              ],
+              "rule_id": "business-assumption"
+            },
+            "confidence": "high"
+          }
+        },
+        "additional_evidence_references": []
+      }
+    ]
+  },
+  "interactions": [
+    {
+      "original_question": {
+        "slide_number": 2,
+        "question_id": "slide2_q1",
+        "priority": "HIGH",
+        "category": "evidence",
+        "source_finding_type": "UNSUPPORTED_NUMERIC_CLAIM",
+        "claim": "StageGuide reduces presentation preparation time by 30%.",
+        "question": "What evidence supports the claimed 30% reduction in presentation preparation time by StageGuide?",
+        "reason": "The value(s) 30% were not matched in a related rehearsal sentence. The quantified benefit needs a verbal explanation and supporting basis.",
+        "evidence_reference": {
+          "slide_number": 2,
+          "finding_id": "slide2_f1",
+          "finding": {
+            "type": "UNSUPPORTED_NUMERIC_CLAIM",
+            "severity": "HIGH",
+            "claim": "StageGuide reduces presentation preparation time by 30%.",
+            "reason": "The value(s) 30% were not matched in a related rehearsal sentence. The quantified benefit needs a verbal explanation and supporting basis.",
+            "evidence": {
+              "slide_text": "StageGuide reduces presentation preparation time by 30%.",
+              "transcript_match": null,
+              "related_transcript": [],
+              "supporting_excerpts": [],
+              "alignment_status": "missing",
+              "alignment_similarity": 0.2,
+              "numeric_values": [
+                "30%"
+              ],
+              "unmentioned_values": [
+                "30%"
+              ],
+              "trigger_phrases": [
+                "30%"
+              ],
+              "rule_id": "numeric-omission"
+            },
+            "confidence": "high"
+          }
+        },
+        "additional_evidence_references": []
+      },
+      "refined_question": {
+        "question": "What evidence supports the claimed 30% reduction in presentation preparation time by StageGuide?",
+        "mode": "refine",
+        "grounded": true,
+        "source_question_id": "slide2_q1",
+        "reason": "The value(s) 30% were not matched in a related rehearsal sentence. The quantified benefit needs a verbal explanation and supporting basis.",
+        "used_fallback": true,
+        "fallback_reason": "backend_unavailable:model_missing",
+        "source_question": {
+          "slide_number": 2,
+          "question_id": "slide2_q1",
+          "priority": "HIGH",
+          "category": "evidence",
+          "source_finding_type": "UNSUPPORTED_NUMERIC_CLAIM",
+          "claim": "StageGuide reduces presentation preparation time by 30%.",
+          "question": "What evidence supports the claimed 30% reduction in presentation preparation time by StageGuide?",
+          "reason": "The value(s) 30% were not matched in a related rehearsal sentence. The quantified benefit needs a verbal explanation and supporting basis.",
+          "evidence_reference": {
+            "slide_number": 2,
+            "finding_id": "slide2_f1",
+            "finding": {
+              "type": "UNSUPPORTED_NUMERIC_CLAIM",
+              "severity": "HIGH",
+              "claim": "StageGuide reduces presentation preparation time by 30%.",
+              "reason": "The value(s) 30% were not matched in a related rehearsal sentence. The quantified benefit needs a verbal explanation and supporting basis.",
+              "evidence": {
+                "slide_text": "StageGuide reduces presentation preparation time by 30%.",
+                "transcript_match": null,
+                "related_transcript": [],
+                "supporting_excerpts": [],
+                "alignment_status": "missing",
+                "alignment_similarity": 0.2,
+                "numeric_values": [
+                  "30%"
+                ],
+                "unmentioned_values": [
+                  "30%"
+                ],
+                "trigger_phrases": [
+                  "30%"
+                ],
+                "rule_id": "numeric-omission"
+              },
+              "confidence": "high"
+            }
+          },
+          "additional_evidence_references": []
+        },
+        "backend_metadata": {
+          "backend_name": "LocalDevelopmentJudgeBackend",
+          "model_name": "Qwen3-4B-Instruct-2507",
+          "execution_provider": "llama.cpp/CPU",
+          "device_type": "CPU",
+          "accelerator": "none",
+          "is_hardware_accelerated": false,
+          "available": false,
+          "status": "model_missing"
+        }
+      },
+      "presenter_answer": "We expect automation to help, but have not measured the 30% figure yet.",
+      "follow_up": {
+        "mode": "follow_up",
+        "grounded": true,
+        "source_question_id": "slide2_q1",
+        "reason": "The value(s) 30% were not matched in a related rehearsal sentence. The quantified benefit needs a verbal explanation and supporting basis.",
+        "used_fallback": true,
+        "fallback_reason": "backend_unavailable:model_missing",
+        "source_question": {
+          "slide_number": 2,
+          "question_id": "slide2_q1",
+          "priority": "HIGH",
+          "category": "evidence",
+          "source_finding_type": "UNSUPPORTED_NUMERIC_CLAIM",
+          "claim": "StageGuide reduces presentation preparation time by 30%.",
+          "question": "What evidence supports the claimed 30% reduction in presentation preparation time by StageGuide?",
+          "reason": "The value(s) 30% were not matched in a related rehearsal sentence. The quantified benefit needs a verbal explanation and supporting basis.",
+          "evidence_reference": {
+            "slide_number": 2,
+            "finding_id": "slide2_f1",
+            "finding": {
+              "type": "UNSUPPORTED_NUMERIC_CLAIM",
+              "severity": "HIGH",
+              "claim": "StageGuide reduces presentation preparation time by 30%.",
+              "reason": "The value(s) 30% were not matched in a related rehearsal sentence. The quantified benefit needs a verbal explanation and supporting basis.",
+              "evidence": {
+                "slide_text": "StageGuide reduces presentation preparation time by 30%.",
+                "transcript_match": null,
+                "related_transcript": [],
+                "supporting_excerpts": [],
+                "alignment_status": "missing",
+                "alignment_similarity": 0.2,
+                "numeric_values": [
+                  "30%"
+                ],
+                "unmentioned_values": [
+                  "30%"
+                ],
+                "trigger_phrases": [
+                  "30%"
+                ],
+                "rule_id": "numeric-omission"
+              },
+              "confidence": "high"
+            }
+          },
+          "additional_evidence_references": []
+        },
+        "backend_metadata": {
+          "backend_name": "LocalDevelopmentJudgeBackend",
+          "model_name": "Qwen3-4B-Instruct-2507",
+          "execution_provider": "llama.cpp/CPU",
+          "device_type": "CPU",
+          "accelerator": "none",
+          "is_hardware_accelerated": false,
+          "available": false,
+          "status": "model_missing"
+        },
+        "follow_up_question": "What evidence supports the claimed 30% reduction in presentation preparation time by StageGuide?"
+      }
+    }
+  ]
+}

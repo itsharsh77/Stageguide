@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stageguide"
+version = "0.1.0"
+description = "Local presentation ingestion and speech transcription for StageGuide"
+requires-python = ">=3.9"
+dependencies = ["python-pptx>=1.0.2,<2", "PyMuPDF>=1.24,<2"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<9"]
+speech = ["faster-whisper>=1.2.1,<2"]
+speech-cpu = ["faster-whisper>=1.2.1,<2"]
+judge-local = ["llama-cpp-python>=0.3.35,<0.4"]
+demo = ["streamlit>=1.40,<1.51"]
+
+[tool.setuptools.packages.find]
+include = ["stageguide*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["local_model: opt-in inference with an explicitly supplied local GGUF; never downloads weights"]

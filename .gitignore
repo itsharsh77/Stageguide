@@ -1,0 +1,60 @@
+# Local Python environments and installed packages
+.venv/
+.venv-*/
+venv/
+env/
+ENV/
+__pypackages__/
+
+# Local environment configuration and credentials
+.env
+.env.*
+.envrc
+!.env.example
+!.env.*.example
+!.env.template
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Python caches, test output and build artifacts
+__pycache__/
+*.py[cod]
+*.so
+*.dylib
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.tox/
+.nox/
+.hypothesis/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+*.egg-info/
+*.egg
+*.whl
+build/
+dist/
+
+# Downloaded local models (including weights outside models/)
+models/
+*.gguf
+*.safetensors
+*.pt
+*.pth
+*.onnx
+*.bin
+
+# Local logs and OS files
+logs/
+*.log
+.DS_Store
+._*
+Thumbs.db
+
+# Reviewed runtime evidence used by the Milestone 7 documentation
+!sample_data/real_judge_runtime.log
